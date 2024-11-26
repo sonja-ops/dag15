@@ -36,6 +36,17 @@ main {
   height: 100vh;
 }
 
+.imputSize {
+  width: 200px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 200px;
+}
+
 /* FOOTER */
 footer {
   display: flex;
