@@ -1,3 +1,6 @@
-const submit.Button = document.querySelector("#submitButton")
+const submitButton = document.querySelector("#submitButton")
 
-
+submitButton.addEventListener("click", function (event) {
+    event.preventDefault()
+    console.log("Button er clicked")
+})
